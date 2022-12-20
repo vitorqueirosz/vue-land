@@ -4,7 +4,7 @@
       name="rows" 
       type="text" 
       placeholder="Rows" 
-      v-model="display.rows"
+      v-model="display.columns"
       label="Rows"
     />
 
@@ -12,7 +12,7 @@
       name="columns" 
       type="text" 
       placeholder="Columns" 
-      v-model="display.columns"
+      v-model="display.rows"
       label="Columns"
     />
   </div>
